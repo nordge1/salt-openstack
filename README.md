@@ -33,6 +33,12 @@ Yet to Arrive
 
 Getting started
 ===============
+
+Using curl to install latest git:
+
+curl -L https://bootstrap.saltstack.com -o install_salt.sh
+sudo sh install_salt.sh git develop
+
 When you are ready to install OpenStack modify the [salt-master configuration](http://docs.saltstack.com/en/latest/ref/configuration/master.html "salt-master configuration") file at "/etc/salt/master" to hold the below contents.
 
 <pre>
